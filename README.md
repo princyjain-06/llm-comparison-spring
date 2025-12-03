@@ -21,9 +21,9 @@ This repository contains a Spring Boot application that demonstrates the integra
 ```
 # FEATURES
 
-1.Integration with multiple LLM providers: (GPT models)
-  Anthropic (Claude models)
-  Ollama (Local models)
+1.Integration with multiple Ollama models: (Gemma), 
+(Deepseek),
+(Llama)
 2. REST API endpoints for interacting with each LLM
 3. React-based user interface for comparing model responses side-by-side
 3. Configurable prompts and model parameters.
@@ -35,7 +35,17 @@ This repository contains a Spring Boot application that demonstrates the integra
 3. Node.js and npm (for the React UI)
 4. Ollama installed locally
 5. Pull the needed ollama models
-   
+
+### Backend Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/princyjain-06/llm-comparison-spring.git
+  
+   ```
+2. Build the Spring Boot application:
+   ```bash
+   mvn clean package -DskipTests
+   ```   
 ### Frontend Setup
 
 1. Navigate to the React UI directory:
@@ -55,6 +65,10 @@ This repository contains a Spring Boot application that demonstrates the integra
 
 npm run dev
 
+## Acknowledgements
+
+- [Spring AI](https://spring.io/projects/spring-ai)
+- [Ollama](https://ollama.ai/)
 
 # React + Vite
 
@@ -63,8 +77,12 @@ This template provides a minimal setup to get React working in Vite with HMR and
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+
+## Contact
+
+For any questions or feedback, please check out:
+- Gmail : princybadjatya06@gmail.com
+- GitHub: https://github.com/princyjain-06/
+- linkedIn : https://in.linkedin.com/in/princy-badjatya-066xyz
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
