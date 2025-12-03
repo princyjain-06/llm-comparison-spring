@@ -84,5 +84,4 @@ For any questions or feedback, please check out:
 - Gmail : princybadjatya06@gmail.com
 - GitHub: https://github.com/princyjain-06/
 - linkedIn : https://in.linkedin.com/in/princy-badjatya-066xyz
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
