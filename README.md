@@ -1,6 +1,6 @@
 # llm-comparison-spring/ LLM Comparison Engine
 
-This repository contains a Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) of Ollama including lamma, Gemma 2, and Deepseek, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
+This repository contains the frontend of Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) of Ollama including lamma, Gemma 2, and Deepseek, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
 
 # Project Structure 
 ```
@@ -12,9 +12,7 @@ This repository contains a Spring Boot application that demonstrates the integra
 │   └── README.md
 │
 ├── backend/            # Java APIs for communicating with Ollama (IntelliJ)
-│   ├── src/
-│   ├── pom.xml or build.gradle
-│   └── README.md
+│   https://github.com/princyjain-06/llm-comparison-spring-backend.git
 │
 ├── .gitignore
 └── README.md
